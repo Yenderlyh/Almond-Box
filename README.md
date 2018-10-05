@@ -1,10 +1,25 @@
 # Almond Box
 
-> Almond box is a single page for users to subscribe to monthly boxes with natural products made of almonds
+> Almond box is a single page for users to buy boxes with natural products made of almonds
 
-## How to use
+## MVP
+- Navigation bar fixed 
+- Create a slideshow as a banner
+- Carrousel for testimonials
+- Design (Css)
+- Footer
 
-### Files included:
+### Backlog
+
+- Responsiveness
+- Link to other pages
+- Burger menu for mobile
 
 
-### Folders included:
+
+## Links
+
+###Git
+https://github.com/Yenderlyh/Almond-Box
+
+###Slides
