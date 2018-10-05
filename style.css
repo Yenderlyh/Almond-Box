@@ -201,3 +201,37 @@ img {
   grid-auto-rows: 1fr 1fr 1fr;
 }
 /* ---- css shame ---- */
+
+/* How it work */ 
+.how-it-works{
+  border:2px solid black;
+}
+
+.service-box{
+  /* margin-bottom: 20px; */
+  padding-top: 20px;
+  border: 2px solid#eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 5px; 
+  margin-left: 5%;
+  width: 80%;
+  height: 20%;
+  display: flex;
+}
+.service-box left{
+
+ align-content: left; 
+
+}
+
+.service-box right{
+
+  align-content: right; 
+}
+
+.service-box img{
+  width: 100px;
+  height: 100px;
+}
