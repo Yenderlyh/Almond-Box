@@ -36,6 +36,30 @@ body {
 }
 
 /* ---- header ---- */
+.nav-bar{
+  height: 60px;
+  width: 100%;
+  margin-top: 0px;
+  position: fixed;
+  background-color: white;
+  z-index: 150;
+}
+
+.nav-bar .option-menu{
+  display: flex;
+  flex-direction: row;
+
+  align-content: space-around;
+}
+
+.option-menu li{
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(50, 50, 50);
+}
 
 /* ---- footer ---- */
 
