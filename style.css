@@ -14,10 +14,6 @@ body {
 
 
 /* ---- typography ---- */
-h1{
-  text-align: center;
-  padding: 30px;
-}
 
 
 /* ---- layout ---- */
@@ -40,146 +36,9 @@ h1{
 }
 
 /* ---- header ---- */
-.nav-bar{
-  height: 60px;
-  width: 100%;
-  margin-top: 0px;
-  position: fixed;
-  background-color: white;
-  z-index: 150;
-}
-
-.nav-bar .option-menu{
-  display: flex;
-  flex-direction: row;
-
-  align-content: space-around;
-}
-
-.option-menu li{
-  margin-top: 5px;
-  margin-right: 20px;
-  font-size: 14px;
-  text-decoration: none;
-  list-style-type: none;
-  color: rgb(50, 50, 50);
-}
-
-/*------Banner-----*/
-.slider {
-	width: 95%;
-	margin: auto;
-	overflow: hidden;
-}
-
-.slider ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-	
-	animation: cambio 20s infinite alternate linear;
-}
-
-.slider li {
-	width: 100%;
-	list-style: none;
-}
-
-.slider img {
-	width: 100%;
-}
-
-@keyframes cambio {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
-}
-/*----Section testimonials----*/
-
-img {
-  max-width: 100%;
-}
-
-.slider-container{
-  height: 100px;
-  width: 50%;
-  position: relative;
-  overflow: hidden; 
-  margin: 0 auto;
-}
-
-.menu {
-  position: absolute;
-  z-index: 900;
-  width: 100%;
-  bottom: 0;
-  left: 40%;
-}
-
-.menu label {
-  cursor: pointer;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: #fff;
-  border-radius: 50px;
-
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  z-index: 10;
-  padding: 8em 1em 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  transition: left 0s .75s;
-}
-
-[id^="slide"]:checked + .slide {
-  left: 0;
-  z-index: 100;
-  transition: left .65s ease-out;
-}
-
-.slide-1 {
-  background-image: url("https://source.unsplash.com/t7YycgAoVSw/1600x900");
-}
-.slide-2 {
-  background-image: url("https://source.unsplash.com/11H1SSVcIxc/1600x900");
-}
-.slide-3 {
-  background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
-}
 
 /* ---- footer ---- */
 
 /* ---- components ---- */
-.companies {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 30px;
 
-}
-.logo{
-  width: 50%;
-  list-style: none;
-  flex: 1;
-}
-.logo img {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 1fr 1fr 1fr;
-}
 /* ---- css shame ---- */
-

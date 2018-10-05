@@ -1,19 +1,10 @@
-# tuna-plate 2018
+# Almond Box
 
-> Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
+> Almond box is a single page for users to subscribe to monthly boxes with natural products made of almonds
 
 ## How to use
 
-- Fork to your github account
-- Use this file to describe your project, plan, take notes, todos, etc...
-- Have fun
-
 ### Files included:
 
-  - `index.html`
-  - `style.css`
-  - `main.js`
 
 ### Folders included:
-
-  - `./assets` (add images, fonts, etc...)
